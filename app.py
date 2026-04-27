@@ -8,11 +8,7 @@ def home():
 
 @app.route("/status")
 def status():
-    return {"status": "ok"}, 200
-
-@app.route("/status")
-def status():
-    return {"status": "erro"}, 500
+    return {"status": "ok"}
 
 if __name__ == "__main__":
     app.run(debug=True)
