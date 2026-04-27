@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+print("Funcionando Python!") 
+=======
+>>>>>>> 0b12897a5d9a159d7d933713a266e229d59ef4a1
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -13,4 +19,11 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+<<<<<<< HEAD
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+=======
+
+
+
+
+>>>>>>> 0b12897a5d9a159d7d933713a266e229d59ef4a1

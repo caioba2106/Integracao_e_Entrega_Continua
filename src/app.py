@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from flask import Flask
 
 app = Flask(__name__)
@@ -9,11 +8,7 @@ def home():
 
 @app.route("/status")
 def status():
-    return {"status": "ok"}
+    return {"status": "API online"}
 
 if __name__ == "__main__":
     app.run(debug=True)
-=======
-def minha_funcao():
-    print("teste")
->>>>>>> 0b12897a5d9a159d7d933713a266e229d59ef4a1
