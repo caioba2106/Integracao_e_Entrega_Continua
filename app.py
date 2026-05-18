@@ -7,6 +7,10 @@ app = Flask(__name__)
 def home():
     return {"mensagem": "API funcionando corretamente"}
 
+@app.route("/cadastro")
+def cadastro():
+    return {"mensagem": "Cadastro de Livro Realizado"}
+
 @app.route("/status")
 def status():
     return {"status": "ok"}
